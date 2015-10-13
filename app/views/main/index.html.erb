@@ -135,9 +135,9 @@
 				
 		<a id="home" class="in-page-link"></a>
 		
-		<section class="header header-5 fixed-header" style="background: url(<%= image_path("hero1.png")%>) 50% 50%;">
+		<section class="header header-5 fixed-header" style="background: url(<%= image_path("hero1.png")%>) 50% 50%; background-size: cover;">
 			<div class="background-image-holder">
-				<%= image_tag("hero1.png", alt: "Background Image", class: "background-image") %>
+				<%#= image_tag("hero1.png", alt: "Background Image", class: "background-image") %>
 			</div>
 			
 			<div class="container">
@@ -178,7 +178,7 @@
 		
 		<a id="team" class="in-page-link"></a>
 		
-		<section class="features features-2 bg-secondary bg-dark">
+		<section class="features features-2 bg-secondary bg-dark" >
 			<div class="container">
 				<!-- <div class="row">
 					<div class="col-md-8 col-md-offset-2  col-sm-12 text-center">
@@ -523,7 +523,7 @@
 					</div>
 				
 					<div class="col-md-6 col-sm-6" >
-						<%= image_tag("hero4.jpg", alt: "Cinema Display", style: "margin-left: -170px;") %>
+						<%= image_tag("hero4.jpg", alt: "Cinema Display", style: "margin-left: -70px;") %>
 					</div>
 				</div>
 			</div>
@@ -578,9 +578,9 @@
 			</div>
 		</section> -->
 		
-		<section class="cta cta-5">
-			<div class="background-image-holder parallax" style="background: url(http://static1.squarespace.com/static/550da9d2e4b0ca75261d01c0/t/55938897e4b0bd01233c7ce2/1435732120836/background-basketball.jpg?format=2500w) 50% 50%;">
-				<img alt="Background Image" class="background-image" src="">
+		<section class="cta cta-5"  style="background: url(<%= image_path("hero2.png")%>)  45% 25% !important; background-size: cover;">
+			<div class="background-image-holder parallax">
+				<!-- <img alt="Background Image" class="background-image" src=""> -->
 			</div>
 		
 			<div class="container">
@@ -616,8 +616,8 @@
 				<div class="row">
 					<div class="col-sm-12 text-center">
 						<!-- <img alt="Logo" src="img/logo-light.png"> -->
-						<p class="lead">Book today and receive a free Activity Tracker!</p>
-						<a class="btn btn-filled" href="#">Book Now</a>
+						<p class="lead oswald">Team Merchandise Coming Soon</p>
+						<a class="btn btn-filled text-white" href="#">Get Updates</a>
 
 					</div>
 				</div>
