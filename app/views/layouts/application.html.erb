@@ -1,14 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>TeamDurant</title>
-  <%= stylesheet_link_tag    'application' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
-<%= yield %>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Team Durant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:700,400,300" rel="stylesheet" type="text/css">
+    <link href="css/font-raleway.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
 
-</body>
+    <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=BenchNine:400,700,300' rel='stylesheet' type='text/css'>
+
+    <%= stylesheet_link_tag    'application' %>
+
+    <%= javascript_include_tag 'application' %>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        
+  	<%= csrf_meta_tags %>
+  </head>
+  
+	<%= yield %>
+
+	
+
+	</body>
 </html>

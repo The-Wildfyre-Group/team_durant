@@ -10,7 +10,127 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
- *= require parsley
+
+ *= require launchkit/bootstrap.min
+ *= require launchkit/icons.min
+ *= require launchkit/flexslider.min
+ *= require launchkit/theme-gumboot
+ *= require launchkit/custom
  */
+
+
+
+nav.dark ul li a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Fjalla One';
+	font-weight: 400;
+	color: #888;
+	font-size: 18px;
+}
+
+.text-muted
+
+h6 {font-family: 'Open Sans Condensed'; letter-spacing: 1px;}
+
+.btn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 0px 20px;
+    border: none;
+    color: #f27244;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    text-align: center;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-1 .btn {
+    margin-top: 20px;
+}
+
+.contained-form input[type="submit"] {
+    border-radius: 0px 3px 3px 0px;
+    position: relative;
+    right: 3px;
+    top: 1px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header input[type="text"] {
+    border-color: #fff;
+    min-width: 300px;
+}
+
+input[type="submit"] {
+    height: 55px;
+}
+
+.contained-form input[type="submit"] {
+    right: 0px;
+}
+
+h1.section-header {
+	font-family: 'Oswald';
+	text-align: left;
+	color: #666 !important;
+	letter-spacing: 5px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+.oswald {font-family: 'Oswald';}
+.lato {font-family: 'Lato';}
+.benchnine {font-family: 'BenchNine';}
+.patuaone {font-family: 'patuaone';}
+.pathwaygothicone {font-family: 'Pathway Gothic One';}
+
+section.bg-dark h5 + p {
+	color: #888;
+}
+
+.light {font-weight: lighter;}
+
+.highlight {
+	color: #f27244;
+}
+
+.first-name {
+	color: #888 !important;
+	font-family: 'Oswald';
+	font-size: 16px;
+}
+
+.last-name {
+	color: #bbb !important;
+	font-family: 'Oswald';
+	font-size: 26px;
+}
+
+.features-2 img {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.no-padding {padding: 0; }
+
+p {color: #555;}
+
+.bg-light {background: #f5f5f5;}
+
+.bordered {border}
+
+img.img-circle.bordered  {
+	border: 3px solid #666;
+}
+

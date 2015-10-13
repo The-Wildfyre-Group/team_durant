@@ -12,5 +12,24 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require parsley
+
+//= require launchkit/jquery.min
+//= require launchkit/bootstrap.min
+//= require launchkit/flexslider.min
+//= require launchkit/smooth-scroll.min
+//= require launchkit/placeholders.min
+//= require launchkit/twitterfetcher.min
+//= require launchkit/spectragram.min
+//= require launchkit/parallax
+//= require launchkit/scripts
+
+
 //= require_tree .
+
+
+
+		
+				
+		
+
+     
