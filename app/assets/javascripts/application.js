@@ -24,10 +24,6 @@
 //= require launchkit/scripts
 
 
-//= require_tree .
-
-
-
 		
 				
 		
